@@ -1,0 +1,25 @@
+In HackerRank, the "Greedy" section focuses on a specific approach to problem-solving called greedy algorithms.
+
+What are Greedy Algorithms?
+Core Idea: Greedy algorithms make the locally optimal choice at each step, hoping that these choices will lead to a globally optimal solution. In simpler terms, they always pick the option that seems best at the moment without considering future consequences.
+Key Characteristics:
+
+Local Optimization: Greedy algorithms focus on making the best decision at each step, without looking ahead to see if it's part of the overall best solution.
+No Backtracking: Once a decision is made, it's not usually revisited or changed.
+Example:
+
+Imagine you're making change for a dollar. A greedy approach would be to give the customer the largest denomination coin possible at each step (e.g., first a quarter, then a quarter, then two dimes). This often works, but it's not always the most optimal solution in all cases.
+
+When Greedy Algorithms Work Well:
+Problems with clear optimal substructures: The optimal solution to the overall problem can be found by making a sequence of locally optimal choices.
+Problems with the greedy choice property: The first choice made by the greedy algorithm is part of the overall optimal solution.
+Common Problems in HackerRank's Greedy Section:
+
+You'll likely encounter problems like:
+Activity Selection: Choosing the maximum number of non-overlapping activities that can be performed.
+Fractional Knapsack: Maximizing the value of items that can be carried in a knapsack with weight constraints.
+Minimum Spanning Tree: Finding the minimum-cost set of edges that connects all vertices in a graph.
+
+Important Note:
+Greedy algorithms don't always guarantee the optimal solution for all problems. There are many cases where a greedy approach will lead to suboptimal or even incorrect results.
+By practicing the problems in HackerRank's Greedy section, you'll gain a better understanding of this algorithmic technique and when it can be effectively applied.
