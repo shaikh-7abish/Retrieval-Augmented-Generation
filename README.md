@@ -11,32 +11,21 @@ This repository demonstrates a robust Retrieval-Augmented Generation (RAG) syste
 - Data Ingestion & Retrieval:
   - Supports diverse data formats: PDF, text files, web pages, and more.
   - Implements robust data preprocessing and cleaning techniques.
-Leverages a dedicated retriever (e.g., DocumentLoader, FAISS Retriever) for efficient and relevant information retrieval.
-Supports various retrieval strategies: keyword matching, semantic search, and hybrid approaches.
+  - Leverages a dedicated retriever (e.g., DocumentLoader, FAISS Retriever) for efficient and relevant information retrieval.
+  - Supports various retrieval strategies: keyword matching, semantic search, and hybrid approaches.
 - Llama 3.2-1b Integration:
-Integrates the powerful Llama 3.2-1b language model for high-quality text generation.
-Leverages the model's capabilities for tasks like summarization, question answering, and creative writing.
+  - Integrates the powerful Llama 3.2-1b language model for high-quality text generation.
+  - Leverages the model's capabilities for tasks like summarization, question answering, and creative writing.
 - Customizable Generation:
-Allows for flexible control over generation parameters (e.g., temperature, top_p, max_tokens).
-Enables fine-tuning of the Llama model on specific domains or tasks.
-Supports various generation tasks, including summarization, question answering, and creative writing.
-- Usage:
+  - Allows for flexible control over generation parameters (e.g., temperature, top_p, max_tokens).
+  - Enables fine-tuning of the Llama model on specific domains or tasks.
+  - Supports various generation tasks, including summarization, question answering, and creative writing.
 
-Data Preparation:
-Prepare your data in supported formats.
-Use the provided scripts to preprocess and index your data.
-Chain Configuration:
-Define the RAG chain by specifying the retriever, LLM, and any necessary prompts or post-processing steps.
-RAG Interaction:
-Query the system with your input (e.g., a question, a topic).
-The chain will orchestrate the retrieval of relevant information and the generation of text using Llama 3.2-1b.
 Contributing:
-
 We welcome contributions from the community. Please feel free to submit bug reports, feature requests, and pull requests.
 
 License:
-
-This project is licensed under the [Choose an appropriate license, e.g., MIT License].
+This project is licensed under the MIT License.
 
 Additional Notes:
 
